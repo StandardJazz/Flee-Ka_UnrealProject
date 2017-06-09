@@ -1,0 +1,460 @@
+﻿Log file open, 06/05/17 17:32:30
+LogInit:Display: Running engine for game: Multiplayer_Test
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1405793485) SRandInit(1405793485).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.299081
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.05-08.32.31:441][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.05-08.32.31:441][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.05-08.32.31:513][  0]LogInit: Computer: DB400T6B
+[2017.06.05-08.32.31:513][  0]LogInit: User: 400T6B
+[2017.06.05-08.32.31:513][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.05-08.32.31:513][  0]LogInit: High frequency timer resolution =3.117189 MHz
+[2017.06.05-08.32.31:513][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.06.05-08.32.31:513][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.05-08.32.31:513][  0]LogMemory: Process Physical Memory: 265.96 MB used, 265.96 MB peak
+[2017.06.05-08.32.31:513][  0]LogMemory: Process Virtual Memory: 262.34 MB used, 262.34 MB peak
+[2017.06.05-08.32.31:513][  0]LogMemory: Physical Memory: 2033.00 MB used,  6116.95 MB free, 8149.95 MB total
+[2017.06.05-08.32.31:513][  0]LogMemory: Virtual Memory: 643.35 MB used,  6116.95 MB free, 134217728.00 MB total
+[2017.06.05-08.32.33:082][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (502993589) Localized String: (내부 시간 누산기 - 이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (319969718) Localized String: (연관성 테스트에 무시 - true 인 경우 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" (연관 애님) 노드가
+이 노드를 무시합니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1232800293) Localized String: (블렌드 웨이트 - 이 노드에 대해 마지막으로 접한 블렌드 웨이트입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝까지 재생되면 반복할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복할까요?)
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1865475011) Localized String: (첫 업데이트시 도입 상태에서의 트랜지션을 건너뛸까요? 
+기본은 true 로, 첫 업데이트시에는 트랜지션 데이터를 버립니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1865475011) Localized String: (첫 번째 업데이트 트랜지션 건너뛰기 - 첫 번째 업데이트에서 입력 스테이트의 트랜지션을 건너뜁니까?
+디폴트는 true 고 첫 번째 업데이트의 트랜지션 데이터를 버립니다.)
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (블렌드스페이스에서 샘플링할 X 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2060772590) Localized String: (X - 블렌드스페이스 샘플의 X 좌표입니다.)
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (블렌드스페이스에서 샘플링할 Y 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (Y - 블렌드스페이스 샘플의 Y 좌표입니다.)
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (블렌드스페이스에서 샘플링할 Z 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1728943471) Localized String: (Z - 블렌드스페이스 샘플의 Z 좌표입니다.)
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (재생할 블렌드스페이스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1599043277) Localized String: (블렌드스페이스 - 재생할 블렌드스페이스 애셋입니다.)
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (이 머신에서 한 프레임 내 '동시에' 취할 수 있는 트랜지션 최대 수입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1567650430) Localized String: (프레임 당 최대 트랜지션 - 한 프레임에서 이 머신이 동시에 취할 수 있는 트랜지션 최대 수입니다.)
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 배수입니다. 음수가 되면 애니메이션을 역순으로 재생하게 됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 되면 애니메이션을 거꾸로 재생합니다.)
+[2017.06.05-08.32.33:222][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-207153555) Localized String: (시작 위치 범위는 [0,1] 이며, 재초기화시에만 적용됩니다.
+루핑을 하면, 1 회전 후 0.f 부터 시작할 것입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-207153555) Localized String: (시작 위치 - [0, 1] 범위의 시작 위치로, 재초기화할 때만 적용됩니다.
+반복하면 1회전 후 0.f 부터 시작됩니다.)
+[2017.06.05-08.32.33:223][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1448580153) Localized String: (센서 폭 - 필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1448580153) Localized String: (필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+[2017.06.05-08.32.33:223][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-194807515) Localized String: (센서 종횡비 - 읽기 전용입니다. 센서 치수에서 계산했습니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-194807515) Localized String: (읽기 전용입니다. 센서 크기에서 계산했습니다.)
+[2017.06.05-08.32.33:223][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복시켜야 할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝에 도달하면 계속해서 루핑시킬것인지 입니다.)
+[2017.06.05-08.32.33:223][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (421436424) Localized String: (시퀀스 - 재생할 애니메이션 시퀀스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (421436424) Localized String: (재생할 애니메이션 시퀀스 애셋입니다.)
+[2017.06.05-08.32.33:223][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 될 수 있으며, 그러면 애니메이션이 거꾸로 재생됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1274923958) Localized String: (플레이 속도 배수입니다. 음수가 되면 애니메이션이 역방향으로 재생됩니다.)
+[2017.06.05-08.32.33:223][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (771611000) Localized String: (시작 위치 - 시작 위치로 재초기화할 때만 적용됩니다.
+반복하면, 1회전 후 0.f 부터 시작됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (771611000) Localized String: (시작 위치로, 재초기화시에만 적용됩니다.
+루핑을 하면, 1회전 후 0.f 부터 시작할 것입니다.)
+[2017.06.05-08.32.33:223][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1311569777) Localized String: (센서 높이 - 필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1311569777) Localized String: (필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+[2017.06.05-08.32.35:746][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.05-08.32.35:769][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 710' (Feature Level 11_0)
+[2017.06.05-08.32.35:769][  0]LogD3D11RHI:       973/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.05-08.32.35:776][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.05-08.32.35:776][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.05-08.32.35:776][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.05-08.32.35:779][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.05-08.32.35:779][  0]LogD3D11RHI:     GPU DeviceId: 0x1289 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.05-08.32.35:779][  0]LogWindows: EnumDisplayDevices:
+[2017.06.05-08.32.35:779][  0]LogWindows:    0. 'NVIDIA GeForce GT 710' (P:1 D:1)
+[2017.06.05-08.32.35:780][  0]LogWindows:    1. 'NVIDIA GeForce GT 710' (P:0 D:0)
+[2017.06.05-08.32.35:780][  0]LogWindows:    2. 'NVIDIA GeForce GT 710' (P:0 D:0)
+[2017.06.05-08.32.35:780][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.06.05-08.32.35:780][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 710
+[2017.06.05-08.32.35:780][  0]LogD3D11RHI:   Driver Version: 359.30 (internal:10.18.13.5930, unified:359.30)
+[2017.06.05-08.32.35:780][  0]LogD3D11RHI:      Driver Date: 1-3-2016
+[2017.06.05-08.32.35:780][  0]LogRHI: Texture pool is 681 MB (70% of 973 MB)
+[2017.06.05-08.32.35:789][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.06.05-08.32.35:790][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.06.05-08.32.35:790][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.05-08.32.35:811][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.05-08.32.35:812][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Intermediate/Shaders/WorkingDirectory/2280/).
+[2017.06.05-08.32.35:812][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/400T6B/AppData/Local/Temp/UnrealShaderWorkingDir/BAA0F9FF495E64C2457C7EB8CB04CF8B/'.
+[2017.06.05-08.32.35:812][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.05-08.32.41:492][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.05-08.32.41:532][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.05-08.32.41:572][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.05-08.32.41:610][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.05-08.32.41:746][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.05-08.32.41:785][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.05-08.32.41:824][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.05-08.32.41:863][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.05-08.32.41:892][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.05-08.32.41:947][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.05-08.32.41:985][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.05-08.32.42:023][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.05-08.32.42:061][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.05-08.32.42:100][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.05-08.32.42:137][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.05-08.32.42:214][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.05-08.32.42:214][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.05-08.32.42:240][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.05-08.32.42:398][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.05-08.32.42:426][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.05-08.32.42:463][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.05-08.32.42:501][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.05-08.32.42:538][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.05-08.32.42:589][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.05-08.32.42:589][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.05-08.32.43:949][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.05-08.32.43:949][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
+[2017.06.05-08.32.43:949][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.05-08.32.43:949][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.05-08.32.43:949][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.05-08.32.43:949][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.05-08.32.44:028][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.05-08.32.44:046][  0]LogDerivedDataCache: Using Local data cache path C:/Users/400T6B/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.05-08.32.44:077][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.05-08.32.44:136][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.05-08.32.44:136][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.05-08.32.52:890][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.05-08.32.52:906][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.05-08.32.53:259][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.05-08.32.53:287][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.05-08.32.53:317][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.05-08.32.53:317][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.05-08.32.53:317][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.05-08.32.57:656][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: multiplayer_test, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3061676614
+[2017.06.05-08.32.57:695][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.06.05-08.32.57:767][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.052741 seconds
+[2017.06.05-08.32.57:772][  0]LogUObjectArray: 32500 objects as part of root set at end of initial load.
+[2017.06.05-08.32.57:772][  0]LogUObjectAllocator: 7290880 out of 0 bytes used by permanent object pool.
+[2017.06.05-08.32.57:772][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.05-08.33.08:039][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.05-08.33.08:068][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.05-08.33.08:757][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.05-08.33.09:357][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.05-08.33.09:364][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.05-08.33.09:393][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.05-08.33.09:422][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.05-08.33.10:500][  0]LogEngine: Initializing Engine...
+[2017.06.05-08.33.10:500][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.05-08.33.11:193][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.05-08.33.11:246][  0]LogInit: No audio devices found!
+[2017.06.05-08.33.11:287][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/400T6B/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.05-08.33.11:297][  0]LogInit: Texture streaming: Enabled
+[2017.06.05-08.33.11:371][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.05-08.33.12:085][  0]LogInit: Transaction tracking system initialized
+[2017.06.05-08.33.12:307][  0]BlueprintLog: New page: 에디터 로드
+[2017.06.05-08.33.13:870][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.06.05-08.33.14:518][  0]LogConsoleResponse:Display: 
+[2017.06.05-08.33.16:550][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.05-08.33.16:550][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.05-08.33.16:844][  0]LogFileCache: Scanning file cache for directory 'C:/Users/400T6B/Desktop/Multiplayer_Test/Content/' took 0.01s
+[2017.06.05-08.33.17:968][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.05-08.33.17:968][  0]Cmd: MAP LOAD FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.05-08.33.17:969][  0]LightingResults: New page: 라이팅 빌드
+[2017.06.05-08.33.17:999][  0]MapCheck: New page: 맵 체크
+[2017.06.05-08.33.17:999][  0]LightingResults: New page: 라이팅 빌드
+[2017.06.05-08.33.18:111][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/블루프린트/레벨/PlayerSaveGame.PlayerSaveGame_C:S_플레이어정보'. Unknown structure.
+[2017.06.05-08.33.18:111][  0]LogClass:Warning: Property S_플레이어정보 of S_플레이어정보 has a struct type mismatch (tag STRUCT_REINST_플레이어정보_0 != prop FallbackStruct) in package:  ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/PlayerSaveGame.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.06.05-08.33.18:112][  0]LogClass:Warning: Property S_플레이어정보 of S_플레이어정보 has a struct type mismatch (tag FallbackStruct != prop 플레이어정보) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.06.05-08.33.18:344][  0]LogTexture:Display: 텍스처 빌드중: yellow_ghost (AutoDXT, 256X256) - 45 MB 총 VRAM
+[2017.06.05-08.33.18:412][  0]LogTexture:Display: 텍스처 빌드중: red_santa (AutoDXT, 256X256) - 45 MB 총 VRAM
+[2017.06.05-08.33.18:464][  0]LogTexture:Display: 텍스처 빌드중: purple_ghost (AutoDXT, 256X256) - 45 MB 총 VRAM
+[2017.06.05-08.33.18:497][  0]LogTexture:Display: 텍스처 빌드중: gray_animals (AutoDXT, 256X256) - 45 MB 총 VRAM
+[2017.06.05-08.33.18:552][  0]LogTexture:Display: 텍스처 빌드중: deepblue_wizard (BGRA8, 690X664) - 45 MB 총 VRAM
+[2017.06.05-08.33.18:597][  0]LogTexture:Display: 텍스처 빌드중: blue_wizard (AutoDXT, 256X256) - 47 MB 총 VRAM
+[2017.06.05-08.33.18:618][  0]LogTexture:Display: 텍스처 빌드중: orange_dragon (AutoDXT, 256X256) - 47 MB 총 VRAM
+[2017.06.05-08.33.18:638][  0]LogTexture:Display: 텍스처 빌드중: green_deer (AutoDXT, 256X256) - 47 MB 총 VRAM
+[2017.06.05-08.33.18:746][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.06.05-08.33.18:765][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.05-08.33.18:765][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.05-08.33.18:790][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 24.143ms.
+[2017.06.05-08.33.18:790][  0]LogFileHelpers: Loading map 'MainMenu' took 0.821
+[2017.06.05-08.33.19:288][  0]LogCollectionManager: Loaded 0 collections in 0.001541 seconds
+[2017.06.05-08.33.19:353][  0]LogFileCache: Scanning file cache for directory 'C:/Users/400T6B/Desktop/Multiplayer_Test/Saved/Collections/' took 0.01s
+[2017.06.05-08.33.19:354][  0]LogFileCache: Scanning file cache for directory 'C:/Users/400T6B/Desktop/Multiplayer_Test/Content/Developers/400T6B/Collections/' took 0.01s
+[2017.06.05-08.33.19:354][  0]LogFileCache: Scanning file cache for directory 'C:/Users/400T6B/Desktop/Multiplayer_Test/Content/Collections/' took 0.01s
+[2017.06.05-08.33.19:354][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.06.05-08.33.19:361][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2247 classes and 456 folders.
+[2017.06.05-08.33.19:364][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.05-08.33.19:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.05-08.33.19:404][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.05-08.33.21:159][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.05-08.33.21:186][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.05-08.33.21:309][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.05-08.33.21:685][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.05-08.33.21:686][  0]LogLoad: (Engine Initialization) Total time: 58.93 seconds
+[2017.06.05-08.33.21:686][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.68 seconds
+[2017.06.05-08.33.21:686][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.05-08.33.22:025][  0]LogOcInput: OculusInput pre-init called
+[2017.06.05-08.33.22:046][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.05-08.33.22:107][  0]LogSlate: Took 0.031612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.05-08.33.22:319][  0]LogSlate: Took 0.209363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.06.05-08.33.22:337][  0]LogSlate: Took 0.016262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.05-08.33.22:367][  0]LogSlate: Took 0.024795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.05-08.33.23:093][  0]LogSlate: Took 0.055124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.05-08.33.23:119][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.06.05-08.33.23:332][  1]LogAssetRegistry: Asset discovery search completed in 25.6588 seconds
+[2017.06.05-08.33.23:332][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2017.06.05-08.33.23:332][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.06.05-08.33.23:662][  2]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.05-08.33.33:155][183]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.05-08.33.33:182][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/맵/MainMenu" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.06.05-08.33.33:268][183]LogSavePackage: Save=67.69ms
+[2017.06.05-08.33.33:268][183]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/UEDPCMainMenu6AE3B1744B81B14319CC6EBA15B8A6D7.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/UEDPCMainMenu.umap'
+[2017.06.05-08.33.33:269][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/UEDPCMainMenu.umap
+[2017.06.05-08.33.33:279][183]LogEditorTransaction: Undo 여기에서 스폰 플레이 시작
+[2017.06.05-08.33.33:282][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.05-08.33.33:282][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.05-08.33.33:282][183]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-08.33.33:283][183]LogOnline:Warning: STEAM: Steam API disabled!
+[2017.06.05-08.33.33:283][183]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.06.05-08.33.33:304][183]PIE: New page: PIE 세션: MainMenu (2017. 6. 6. 오전 2:33:33)
+[2017.06.05-08.33.33:328][183]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_1654_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_dc0_0///####STATCAT_Advanced####
+[2017.06.05-08.33.33:352][183]LogNet: Browse: 127.0.0.1//Game/맵/MainMenu
+[2017.06.05-08.33.33:352][183]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.06.05-08.33.33:352][183]LogInit: WinSock: I am DB400T6B (117.16.44.167:0)
+[2017.06.05-08.33.33:352][183]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.05-08.33.33:352][183]LogNet: Game client on port 7777, rate 10000
+[2017.06.05-08.33.33:352][183]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: multiplayer_test, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3323243834
+[2017.06.05-08.33.33:352][183]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL
+[2017.06.05-08.33.33:355][183]PIE: 정보 /Game/맵/MainMenu 에 대한 에디터에서 플레이 시작 시간: -0.675
+[2017.06.05-08.33.33:356][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.05-08.33.45:334][309]LogHandshake: SendChallengeResponse. Timestamp: 1.120140, Cookie: 083166040191048050213006183155061033198061178166232196185086
+[2017.06.05-08.33.45:680][310]LogNet: NetConnection::Close() [PendingNetDriver] [NoPC] [No Owner] from NMT_Failure 호스트가 접속을 끊었습니다.
+[2017.06.05-08.33.45:680][310]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL, Channels: 2, Time: 2017.06.05-08.33.45
+[2017.06.05-08.33.45:680][310]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL
+[2017.06.05-08.33.45:680][310]LogNet:Warning: Network Failure: PendingNetDriver[PendingConnectionFailure]: 호스트가 접속을 끊었습니다.
+[2017.06.05-08.33.45:680][310]LogNet: NetworkFailure: PendingConnectionFailure, Error: '호스트가 접속을 끊었습니다.'
+[2017.06.05-08.33.45:681][310]LogNet: DestroyNamedNetDriver IpNetDriver_0 [PendingNetDriver]
+[2017.06.05-08.33.45:681][310]LogExit: PendingNetDriver IpNetDriver_0 shut down
+[2017.06.05-08.33.46:002][311]LogNet: Browse: /Game/맵/MainMenu?closed
+[2017.06.05-08.33.46:002][311]LogNet: Failed; returning to Entry
+[2017.06.05-08.33.46:002][311]LogLoad: LoadMap: /Game/맵/MainMenu?closed
+[2017.06.05-08.33.46:011][311]Cmd: MEM
+[2017.06.05-08.33.46:021][311]LogMemory: Platform Memory Stats for Windows
+[2017.06.05-08.33.46:021][311]LogMemory: Process Physical Memory: 906.17 MB used, 959.90 MB peak
+[2017.06.05-08.33.46:021][311]LogMemory: Process Virtual Memory: 1163.54 MB used, 1217.87 MB peak
+[2017.06.05-08.33.46:021][311]LogMemory: Physical Memory: 3648.28 MB used,  4501.68 MB free, 8149.95 MB total
+[2017.06.05-08.33.46:021][311]LogMemory: Virtual Memory: 1914.16 MB used,  4501.68 MB free, 134217728.00 MB total
+[2017.06.05-08.33.46:021][311]LogMemory: 
+[2017.06.05-08.33.46:021][311]Allocator Stats for TBB: (not implemented)
+[2017.06.05-08.33.46:021][311]LogPlayLevel: Creating play world package: /Game/맵/UEDPIE_0_MainMenu
+[2017.06.05-08.33.46:022][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000837s)
+[2017.06.05-08.33.46:023][311]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2017.06.05-08.33.46:023][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/맵/MainMenu.MainMenu to /Game/맵/UEDPIE_0_MainMenu.MainMenu (0.001641s)
+[2017.06.05-08.33.46:222][311]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.06.05-08.33.46:225][311]LogWorld: Bringing World /Game/맵/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 3) at 2017.06.05-17.33.46
+[2017.06.05-08.33.46:225][311]LogWorld: Bringing up level for play took: 0.001458
+[2017.06.05-08.33.46:226][311]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.06.05-08.33.46:295][311]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.05-08.33.46:299][311]LogLoad: Took 0.296691 seconds to LoadMap(/Game/맵/UEDPIE_0_MainMenu)
+[2017.06.05-08.33.46:347][312]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:45).
+[2017.06.05-08.33.47:037][314]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.05-08.33.47:068][314]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-08.33.47:068][314]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.06.05-08.33.47:069][314]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.05-08.33.47:222][317]LogPlayLevel:Display: Destroying online subsystem :Context_1
+[2017.06.05-08.33.47:222][317]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.05-08.33.48:142][339]LogTemp: Repeting last play command: 새 에디터 창 (PIE)
+[2017.06.05-08.33.48:217][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/맵/MainMenu" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.06.05-08.33.48:283][339]LogSavePackage: Save=55.38ms
+[2017.06.05-08.33.48:283][339]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/UEDPCMainMenuAE11A28840CCA01A3950F5B5E3ED22C3.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/UEDPCMainMenu.umap'
+[2017.06.05-08.33.48:284][339]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/UEDPCMainMenu.umap
+[2017.06.05-08.33.48:289][339]LogEditorTransaction: Undo 여기에서 스폰 플레이 시작
+[2017.06.05-08.33.48:292][339]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.05-08.33.48:292][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.05-08.33.48:292][339]PIE: New page: PIE 세션: MainMenu (2017. 6. 6. 오전 2:33:48)
+[2017.06.05-08.33.48:340][339]LogNet: Browse: 127.0.0.1//Game/맵/MainMenu
+[2017.06.05-08.33.48:340][339]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.06.05-08.33.48:341][339]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.06.05-08.33.48:341][339]LogNet: Game client on port 7777, rate 10000
+[2017.06.05-08.33.48:341][339]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.06.05-08.33.48:344][339]PIE: 정보 /Game/맵/MainMenu 에 대한 에디터에서 플레이 시작 시간: 0.313
+[2017.06.05-08.33.48:344][339]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.05-08.33.48:677][350]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2017.06.05-08.33.48:677][350]LogSynthBenchmark:Display: ===============
+[2017.06.05-08.33.48:677][350]LogSynthBenchmark:Display: Main Processor:
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:          ... 0.021807 s/Run 'RayIntersect'
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:          ... 0.021872 s/Run 'Fractal'
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display: 
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   CPU Perf Index 0: 117.4 (weight 1.00)
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   CPU Perf Index 1: 130.8 (weight 1.50)
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:  
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display: Graphics:
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GT 710'
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   Vendor Id: 0x10DE
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   Device Id: 0x1289
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   Device Revision: 0xA1
+[2017.06.05-08.33.48:896][350]LogSynthBenchmark:Display:   GPU Memory: 974/0/4075 MB
+[2017.06.05-08.33.49:007][350]LogSynthBenchmark:Display:   GPU first test: 0.05s
+[2017.06.05-08.33.49:007][350]LogSynthBenchmark:Display:          ... 0.376 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.06.05-08.33.49:007][350]LogSynthBenchmark:Display:          ... 0.333 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2017.06.05-08.33.49:007][350]LogSynthBenchmark:Display:          ... 0.301 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.06.05-08.33.49:007][350]LogSynthBenchmark:Display:          ... 1.546 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2017.06.05-08.33.49:007][350]LogSynthBenchmark:Display:          ... 0.044 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2017.06.05-08.33.49:007][350]LogSynthBenchmark:Display:          ... 0.128 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be very inaccurate)
+[2017.06.05-08.33.49:007][350]LogSynthBenchmark:Display:          ... 0.403 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:   GPU second test: 0.47s
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.449 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.389 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.320 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 2.174 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.045 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.118 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.319 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:   GPU Final Results:
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.449 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.389 s/GigaPix, Confidence=100% 'TexHeavy'
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.320 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 2.174 s/GigaPix, Confidence=100% 'FillOnly'
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.045 s/GigaPix, Confidence=100% 'Bandwidth'
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.118 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... 0.319 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display: 
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:   GPU Perf Index 0: 9.8 (weight 1.00)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:   GPU Perf Index 1: 5.2 (weight 0.10)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:   GPU Perf Index 2: 8.3 (weight 0.10)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:   GPU Perf Index 3: 8.5 (weight 3.00)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:   GPU Perf Index 4: 4.2 (weight 1.00)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:   GPU Perf Index 5: 7.7 (weight 0.00)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:   GPU Perf Index 6: 18.0 (weight 0.00)
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:   CPUIndex: 125.4
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:   GPUIndex: 7.9
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display: 
+[2017.06.05-08.33.49:546][350]LogSynthBenchmark:Display:          ... Total Time: 0.868885 sec
+[2017.06.05-08.33.56:795][396]LogHandshake: SendChallengeResponse. Timestamp: 1.133795, Cookie: 186037023034059108207009067098111133104242165239233232131247
+[2017.06.05-08.33.57:462][398]LogNet: Welcomed by server (Level: /Temp/Autosaves/Game/맵/UEDPCMainMenu, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2017.06.05-08.33.57:463][398]LogLoad: LoadMap: 127.0.0.1//Temp/Autosaves/Game/맵/UEDPCMainMenu?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2017.06.05-08.33.57:472][398]Cmd: MEM
+[2017.06.05-08.33.57:482][398]LogMemory: Platform Memory Stats for Windows
+[2017.06.05-08.33.57:482][398]LogMemory: Process Physical Memory: 920.48 MB used, 1003.05 MB peak
+[2017.06.05-08.33.57:482][398]LogMemory: Process Virtual Memory: 1229.15 MB used, 1439.55 MB peak
+[2017.06.05-08.33.57:482][398]LogMemory: Physical Memory: 3595.95 MB used,  4554.01 MB free, 8149.95 MB total
+[2017.06.05-08.33.57:482][398]LogMemory: Virtual Memory: 2026.14 MB used,  4554.01 MB free, 134217728.00 MB total
+[2017.06.05-08.33.57:482][398]LogMemory: 
+[2017.06.05-08.33.57:482][398]Allocator Stats for TBB: (not implemented)
+[2017.06.05-08.33.57:496][398]LogWorld: Bringing World /Temp/Autosaves/Game/맵/UEDPCMainMenu.MainMenu up for play (max tick rate 3) at 2017.06.05-17.33.57
+[2017.06.05-08.33.57:496][398]LogWorld: Bringing up level for play took: 0.001058
+[2017.06.05-08.33.57:496][398]LogLoad: Took 0.033537 seconds to LoadMap(/Temp/Autosaves/Game/맵/UEDPCMainMenu)
+[2017.06.05-08.33.57:799][399]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.06.05-08.33.57:800][399]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.06.05-08.34.05:795][423]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: 호스트가 접속을 끊었습니다.
+[2017.06.05-08.34.05:795][423]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 11, Time: 2017.06.05-08.34.05
+[2017.06.05-08.34.05:795][423]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2017.06.05-08.34.05:795][423]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: 호스트와의 접속이 끊어졌습니다.
+[2017.06.05-08.34.05:796][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.06.05-08.34.06:151][423]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.253 s
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: 
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 755]
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: Type mismatch: Expected MainMenu_C, Found MainMenu_C
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: Stack: 
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000016CD95E6
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000016A89B82
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000016A9B666
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000001179F281
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000012578E91
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000150D2CCD
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000001508E8CE
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000014BB7A9F
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000153C2086
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor.exe!0x00000000DDDADEE3
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor.exe!0x00000000DDD9EB40
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor.exe!0x00000000DDD9EBBA
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor.exe!0x00000000DDDB0A29
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: UE4Editor.exe!0x00000000DDDB22B6
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: KERNEL32.DLL!0x0000000039F52D92
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: ntdll.dll!0x000000003C759F64
+[2017.06.05-08.34.06:151][423]LogOutputDevice:Error: 
+[2017.06.05-08.34.06:152][423]LogStats:                SubmitErrorReport -  0.000 s

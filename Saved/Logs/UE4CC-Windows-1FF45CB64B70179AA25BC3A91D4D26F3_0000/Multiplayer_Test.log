@@ -1,0 +1,1148 @@
+﻿Log file open, 05/20/17 14:40:44
+LogInit:Display: Running engine for game: Multiplayer_Test
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1099020307) SRandInit(1099020308).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 3.052554
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.20-05.40.45:747][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.20-05.40.45:747][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.20-05.40.45:817][  0]LogInit: Computer: G416-35
+[2017.05.20-05.40.45:817][  0]LogInit: User: 400T6B
+[2017.05.20-05.40.45:817][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.20-05.40.45:817][  0]LogInit: High frequency timer resolution =3.117184 MHz
+[2017.05.20-05.40.45:817][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.05.20-05.40.45:817][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.20-05.40.45:817][  0]LogMemory: Process Physical Memory: 264.46 MB used, 264.46 MB peak
+[2017.05.20-05.40.45:817][  0]LogMemory: Process Virtual Memory: 262.35 MB used, 262.35 MB peak
+[2017.05.20-05.40.45:817][  0]LogMemory: Physical Memory: 2485.18 MB used,  5664.56 MB free, 8149.74 MB total
+[2017.05.20-05.40.45:817][  0]LogMemory: Virtual Memory: 639.67 MB used,  5664.56 MB free, 134217728.00 MB total
+[2017.05.20-05.40.46:684][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.05.20-05.40.46:890][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.05.20-05.40.46:890][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.05.20-05.40.46:890][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.05.20-05.40.46:890][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.05.20-05.40.49:096][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.20-05.40.49:123][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 710' (Feature Level 11_0)
+[2017.05.20-05.40.49:123][  0]LogD3D11RHI:       973/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.20-05.40.49:125][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.20-05.40.49:125][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.20-05.40.49:125][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.20-05.40.49:132][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.20-05.40.49:132][  0]LogD3D11RHI:     GPU DeviceId: 0x1289 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.20-05.40.49:132][  0]LogWindows: EnumDisplayDevices:
+[2017.05.20-05.40.49:133][  0]LogWindows:    0. 'NVIDIA GeForce GT 710' (P:1 D:1)
+[2017.05.20-05.40.49:133][  0]LogWindows:    1. 'NVIDIA GeForce GT 710' (P:0 D:0)
+[2017.05.20-05.40.49:133][  0]LogWindows:    2. 'NVIDIA GeForce GT 710' (P:0 D:0)
+[2017.05.20-05.40.49:133][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.05.20-05.40.49:133][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 710
+[2017.05.20-05.40.49:133][  0]LogD3D11RHI:   Driver Version: 359.30 (internal:10.18.13.5930, unified:359.30)
+[2017.05.20-05.40.49:133][  0]LogD3D11RHI:      Driver Date: 1-3-2016
+[2017.05.20-05.40.49:134][  0]LogRHI: Texture pool is 681 MB (70% of 973 MB)
+[2017.05.20-05.40.49:145][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.20-05.40.49:154][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.05.20-05.40.49:154][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.20-05.40.49:389][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.20-05.40.49:426][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Intermediate/Shaders/WorkingDirectory/6492/).
+[2017.05.20-05.40.49:426][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/400T6B/AppData/Local/Temp/UnrealShaderWorkingDir/6599F0C84C82AF3EFD042A87A9048C78/'.
+[2017.05.20-05.40.49:426][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.20-05.40.53:610][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.20-05.40.53:655][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.20-05.40.53:700][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.20-05.40.53:744][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.20-05.40.53:797][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.20-05.40.53:841][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.20-05.40.53:885][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.20-05.40.53:931][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.20-05.40.53:976][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.20-05.40.54:028][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.20-05.40.54:083][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.20-05.40.54:126][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.20-05.40.54:169][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.20-05.40.54:213][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.20-05.40.54:257][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.20-05.40.54:343][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.20-05.40.54:343][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.20-05.40.54:372][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.20-05.40.54:503][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.20-05.40.54:532][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.20-05.40.54:576][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.20-05.40.54:618][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.20-05.40.54:661][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.20-05.40.54:709][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.20-05.40.54:709][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.20-05.40.55:740][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.20-05.40.55:740][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
+[2017.05.20-05.40.55:740][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.20-05.40.55:740][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.20-05.40.55:740][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.20-05.40.55:740][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.20-05.40.55:829][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.20-05.40.55:841][  0]LogDerivedDataCache: Using Local data cache path C:/Users/400T6B/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.20-05.40.55:964][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.20-05.40.56:017][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.20-05.40.56:017][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.20-05.41.04:172][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.20-05.41.04:275][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.20-05.41.05:022][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.20-05.41.05:145][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.20-05.41.05:207][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.20-05.41.05:207][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.20-05.41.05:207][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.20-05.41.11:340][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: multiplayer_test, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3061676614
+[2017.05.20-05.41.11:461][  0]LogAssetRegistry: FAssetRegistry took 0.0233 seconds to start up
+[2017.05.20-05.41.11:653][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.113194 seconds
+[2017.05.20-05.41.11:661][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.05.20-05.41.11:661][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.05.20-05.41.11:661][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.20-05.41.11:752][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.20-05.41.26:221][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.20-05.41.26:308][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.20-05.41.27:776][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.20-05.41.29:144][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.20-05.41.29:155][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.20-05.41.29:304][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.20-05.41.29:365][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.20-05.41.32:107][  0]LogEngine: Initializing Engine...
+[2017.05.20-05.41.32:121][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.20-05.41.33:900][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.20-05.41.34:126][  0]LogInit: No audio devices found!
+[2017.05.20-05.41.34:164][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/400T6B/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.20-05.41.34:172][  0]LogInit: Texture streaming: Enabled
+[2017.05.20-05.41.35:228][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.20-05.41.35:533][  0]LogInit: Transaction tracking system initialized
+[2017.05.20-05.41.36:966][  0]BlueprintLog: New page: 에디터 로드
+[2017.05.20-05.41.40:558][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.05.20-05.41.41:877][  0]LogConsoleResponse:Display: 
+[2017.05.20-05.41.43:020][  0]LogFileCache: Scanning file cache for directory 'C:/Users/400T6B/Desktop/Multiplayer_Test/Content/' took 0.02s
+[2017.05.20-05.41.43:020][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.20-05.41.43:020][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.20-05.41.45:757][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.20-05.41.45:821][  0]Cmd: MAP LOAD FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.20-05.41.45:823][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.20-05.41.46:024][  0]MapCheck: New page: 맵 체크
+[2017.05.20-05.41.46:024][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.20-05.41.46:212][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.20-05.41.46:264][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.20-05.41.46:286][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.20-05.41.46:350][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 63.888ms.
+[2017.05.20-05.41.46:350][  0]LogFileHelpers: Loading map 'MainMenu' took 0.546
+[2017.05.20-05.41.47:702][  0]LogCollectionManager: Loaded 0 collections in 0.001376 seconds
+[2017.05.20-05.41.47:836][  0]LogFileCache: Scanning file cache for directory 'C:/Users/400T6B/Desktop/Multiplayer_Test/Saved/Collections/' took 0.01s
+[2017.05.20-05.41.47:836][  0]LogFileCache: Scanning file cache for directory 'C:/Users/400T6B/Desktop/Multiplayer_Test/Content/Developers/400T6B/Collections/' took 0.01s
+[2017.05.20-05.41.47:836][  0]LogFileCache: Scanning file cache for directory 'C:/Users/400T6B/Desktop/Multiplayer_Test/Content/Collections/' took 0.01s
+[2017.05.20-05.41.47:836][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.20-05.41.47:854][  0]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 2244 classes and 450 folders.
+[2017.05.20-05.41.47:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.20-05.41.47:882][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.20-05.41.48:060][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.20-05.41.49:710][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.05.20-05.41.49:812][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.20-05.41.50:129][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.20-05.41.50:416][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.20-05.41.50:416][  0]LogLoad: (Engine Initialization) Total time: 76.15 seconds
+[2017.05.20-05.41.50:417][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
+[2017.05.20-05.41.50:417][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.20-05.41.50:764][  0]LogOcInput: OculusInput pre-init called
+[2017.05.20-05.41.50:865][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.20-05.41.50:914][  0]LogSlate: Took 0.018857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.20-05.41.50:963][  0]LogSlate: Took 0.045577 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.05.20-05.41.50:973][  0]LogSlate: Took 0.006735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.20-05.41.50:997][  0]LogSlate: Took 0.013892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.20-05.41.51:520][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.20-05.41.52:044][  2]LogAssetRegistry: Asset discovery search completed in 40.6054 seconds
+[2017.05.20-05.41.52:076][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.05.20-05.41.52:076][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.031386 seconds (updated 0 objects)
+[2017.05.20-05.41.55:763][ 13]LogSlate: Took 0.014731 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.20-05.42.36:464][939]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.20-05.42.37:041][939]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.20-05.42.37:269][939]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.05.20-05.42.40:629][987]LogSlate: Took 0.009666 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.20-05.42.49:145][281]LogSlate: Took 0.014989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.20-05.43.18:962][252]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-05.43.31:259][499]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-05.43.37:596][799]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-05.45.26:870][131]LogSlate: Took 0.022298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.20-05.52.00:477][ 24]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.20-05.52.00:608][ 24]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.042
+[2017.05.20-05.52.00:628][ 24]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/블루프린트/레벨/GameInfoInstance] ([1] browsable assets)...
+[2017.05.20-05.52.00:628][ 24]OBJ SavePackage: Finished generating thumbnails for package [/Game/블루프린트/레벨/GameInfoInstance]
+[2017.05.20-05.52.00:664][ 24]LogSavePackage: Save=25.09ms
+[2017.05.20-05.52.00:665][ 24]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstance_Auto1970C9108405DDBBB319DB4BEDFAB9BEE.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto1.uasset'
+[2017.05.20-05.52.00:665][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto1.uasset
+[2017.05.20-05.52.00:665][ 24]LogFileHelpers: Auto-saving content packages took 0.057
+[2017.05.20-05.54.25:988][776]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-05.54.56:065][750]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-06.00.35:817][748]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-06.00.38:419][831]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-06.03.44:173][741]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-06.03.46:029][801]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-06.10.15:017][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/GameInfoInstance" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset" SILENT=true
+[2017.05.20-06.10.15:043][772]LogSavePackage: Save=22.63ms
+[2017.05.20-06.10.15:043][772]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstance9015060547076CE4A7196C8979F257B7.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset'
+[2017.05.20-06.10.15:047][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset
+[2017.05.20-06.10.16:845][804]BlueprintLog: New page: GameInfoInstance 컴파일
+[2017.05.20-06.10.17:796][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/GameInfoInstance" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset" SILENT=true
+[2017.05.20-06.10.17:826][816]LogSavePackage: Save=27.56ms
+[2017.05.20-06.10.17:826][816]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstance4E88474E465B7244EB54259244FA0918.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset'
+[2017.05.20-06.10.17:827][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset
+[2017.05.20-06.11.44:822][373]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.014
+[2017.05.20-06.11.44:823][373]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/블루프린트/레벨/GameInfoInstance] ([1] browsable assets)...
+[2017.05.20-06.11.44:823][373]OBJ SavePackage: Finished generating thumbnails for package [/Game/블루프린트/레벨/GameInfoInstance]
+[2017.05.20-06.11.44:847][373]LogSavePackage: Save=21.51ms
+[2017.05.20-06.11.44:847][373]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstance_Auto21DDC803B4537980029596583456BB922.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto2.uasset'
+[2017.05.20-06.11.44:848][373]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto2.uasset
+[2017.05.20-06.11.44:848][373]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.05.20-06.21.49:541][726]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.018
+[2017.05.20-06.21.49:543][726]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/블루프린트/레벨/GameInfoInstance] ([1] browsable assets)...
+[2017.05.20-06.21.49:543][726]OBJ SavePackage: Finished generating thumbnails for package [/Game/블루프린트/레벨/GameInfoInstance]
+[2017.05.20-06.21.49:578][726]LogSavePackage: Save=25.07ms
+[2017.05.20-06.21.49:578][726]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstance_Auto310B3BCAB4DCD70E0CB4637B9B69FD79E.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto3.uasset'
+[2017.05.20-06.21.49:608][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto3.uasset
+[2017.05.20-06.21.49:608][726]LogFileHelpers: Auto-saving content packages took 0.067
+[2017.05.20-06.26.56:012][168]BlueprintLog: New page: GameInfoInstance 컴파일
+[2017.05.20-06.26.56:764][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/GameInfoInstance" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset" SILENT=true
+[2017.05.20-06.26.56:812][179]LogSavePackage: Save=31.79ms
+[2017.05.20-06.26.56:812][179]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstanceC53AB2FD43588B1CAB769F9FDB2F81F3.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset'
+[2017.05.20-06.26.56:815][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset
+[2017.05.20-06.31.50:058][663]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.016
+[2017.05.20-06.31.50:059][663]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/블루프린트/레벨/GameInfoInstance] ([1] browsable assets)...
+[2017.05.20-06.31.50:059][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/블루프린트/레벨/GameInfoInstance]
+[2017.05.20-06.31.50:086][663]LogSavePackage: Save=24.94ms
+[2017.05.20-06.31.50:086][663]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstance_Auto41ECA46214584B9A897EED7B467C63A46.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto4.uasset'
+[2017.05.20-06.31.50:087][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto4.uasset
+[2017.05.20-06.31.50:087][663]LogFileHelpers: Auto-saving content packages took 0.029
+[2017.05.20-06.40.51:860][164]BlueprintLog: New page: GameInfoInstance 컴파일
+[2017.05.20-06.40.52:641][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/GameInfoInstance" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset" SILENT=true
+[2017.05.20-06.40.52:682][174]LogSavePackage: Save=31.88ms
+[2017.05.20-06.40.52:682][174]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstanceE06192BB44B7ABAAA22DA3AADC94EAA3.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset'
+[2017.05.20-06.40.52:685][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset
+[2017.05.20-06.41.39:730][ 68]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-06.41.51:216][441]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-06.43.21:304][410]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.016
+[2017.05.20-06.43.21:306][410]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/블루프린트/레벨/GameInfoInstance] ([1] browsable assets)...
+[2017.05.20-06.43.21:306][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/블루프린트/레벨/GameInfoInstance]
+[2017.05.20-06.43.21:335][410]LogSavePackage: Save=27.49ms
+[2017.05.20-06.43.21:335][410]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstance_Auto581E25CCC42A68935D7B293BD37CE88C4.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto5.uasset'
+[2017.05.20-06.43.21:337][410]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto5.uasset
+[2017.05.20-06.43.21:337][410]LogFileHelpers: Auto-saving content packages took 0.032
+[2017.05.20-06.55.04:841][409]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.018
+[2017.05.20-06.55.04:843][409]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/블루프린트/레벨/GameInfoInstance] ([1] browsable assets)...
+[2017.05.20-06.55.04:843][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/블루프린트/레벨/GameInfoInstance]
+[2017.05.20-06.55.04:881][409]LogSavePackage: Save=30.39ms
+[2017.05.20-06.55.04:881][409]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstance_Auto6A002771041BF5CFE691775AEB731A41D.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto6.uasset'
+[2017.05.20-06.55.04:881][409]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/레벨/GameInfoInstance_Auto6.uasset
+[2017.05.20-06.55.04:881][409]LogFileHelpers: Auto-saving content packages took 0.040
+[2017.05.20-07.07.55:299][ 96]BlueprintLog: New page: GameInfoInstance 컴파일
+[2017.05.20-07.07.56:107][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/GameInfoInstance" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset" SILENT=true
+[2017.05.20-07.07.56:151][107]LogSavePackage: Save=36.01ms
+[2017.05.20-07.07.56:152][107]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstance5DA8FDE5455A28CE5D05D18F7AB9508C.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset'
+[2017.05.20-07.07.56:156][107]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset
+[2017.05.20-07.13.08:223][802]BlueprintLog: New page: GameInfoInstance 컴파일
+[2017.05.20-07.13.08:921][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/GameInfoInstance" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset" SILENT=true
+[2017.05.20-07.13.08:990][810]LogSavePackage: Save=54.06ms
+[2017.05.20-07.13.08:990][810]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstanceBF7B95BF4F11B0E7246958B95D7AF343.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset'
+[2017.05.20-07.13.09:022][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset
+[2017.05.20-07.15.47:529][ 85]BlueprintLog: New page: MainMenu 컴파일
+[2017.05.20-07.15.48:709][157]BlueprintLog: New page: MainMenu 컴파일
+[2017.05.20-07.16.18:891][113]BlueprintLog: New page: MainMenu 컴파일
+[2017.05.20-07.16.19:395][140]BlueprintLog: New page: MainMenu 컴파일
+[2017.05.20-07.16.19:943][170]BlueprintLog: New page: MainMenu 컴파일
+[2017.05.20-07.16.26:124][558]BlueprintLog: New page: MainMenu 컴파일
+[2017.05.20-07.16.38:909][360]BlueprintLog: New page: GameInfoInstance 컴파일
+[2017.05.20-07.16.39:286][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/GameInfoInstance" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset" SILENT=true
+[2017.05.20-07.16.39:322][368]LogSavePackage: Save=33.98ms
+[2017.05.20-07.16.39:322][368]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstance1A2C651748DC62B3608DF7BF01FFCCC8.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset'
+[2017.05.20-07.16.39:323][368]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset
+[2017.05.20-07.16.42:459][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/맵/MainMenu" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.20-07.16.42:560][518]LogSavePackage: Save=82.03ms
+[2017.05.20-07.16.42:560][518]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/MainMenu4156E3984F027D3F0D3E069367D6B531.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/MainMenu.umap'
+[2017.05.20-07.16.42:562][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/MainMenu.umap
+[2017.05.20-07.16.42:587][518]LogFileHelpers: Saving map 'MainMenu' took 0.168
+[2017.05.20-07.39.49:783][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/플레이어정보" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/플레이어정보.uasset" SILENT=true
+[2017.05.20-07.39.49:794][218]LogSavePackage: Save=4.84ms
+[2017.05.20-07.39.49:794][218]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/플레이어정보6CC3B04C4617C52EDA3CCBB3E8F43C00.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/플레이어정보.uasset'
+[2017.05.20-07.39.49:796][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/플레이어정보.uasset
+[2017.05.20-07.41.07:563][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/플레이어정보" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/플레이어정보.uasset" SILENT=true
+[2017.05.20-07.41.07:577][856]LogSavePackage: Save=9.38ms
+[2017.05.20-07.41.07:577][856]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/플레이어정보A7AA833F426B24EA41C6F3A144424C06.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/플레이어정보.uasset'
+[2017.05.20-07.41.07:579][856]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/플레이어정보.uasset
+[2017.05.20-07.43.03:322][144]BlueprintLog: New page: PlayerSaveGame 컴파일
+[2017.05.20-07.43.11:843][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/PlayerSaveGame" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/PlayerSaveGame.uasset" SILENT=true
+[2017.05.20-07.43.11:862][318]LogSavePackage: Save=12.96ms
+[2017.05.20-07.43.11:862][318]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/PlayerSaveGame79C9A39A4CCBB4DD81165BAB1CA90362.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/PlayerSaveGame.uasset'
+[2017.05.20-07.43.11:864][318]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/PlayerSaveGame.uasset
+[2017.05.20-07.43.17:857][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/PlayerSaveGame" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/PlayerSaveGame.uasset" SILENT=true
+[2017.05.20-07.43.17:864][440]LogSavePackage: Save=5.02ms
+[2017.05.20-07.43.17:864][440]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/PlayerSaveGame65B2BB3149D67F6669EA8FBBAD36F09A.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/PlayerSaveGame.uasset'
+[2017.05.20-07.43.17:865][440]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/PlayerSaveGame.uasset
+[2017.05.20-07.43.42:269][ 19]LogLinker:Warning: '/Game/맵/Arena01_BuiltData' 파일을 찾을 수 없습니다.
+[2017.05.20-07.43.42:269][ 19]LogLinker:Warning: ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena01.umap 로드중 '/Game/맵/Arena01_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.20-07.43.42:269][ 19]LoadErrors:Error: 오류 /Game/맵/Arena01 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/맵/Arena01_BuiltData
+[2017.05.20-07.43.42:276][ 19]LogLinker:Warning: '/Game/맵/Arena01_BuiltData' 파일을 찾을 수 없습니다.
+[2017.05.20-07.43.42:276][ 19]LogLinker:Warning: ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena01.umap 로드중 '/Game/맵/Arena01_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.20-07.43.42:277][ 19]LogLinker:Warning: '/Game/맵/Arena01_BuiltData' 파일을 찾을 수 없습니다.
+[2017.05.20-07.43.42:277][ 19]LogLinker:Warning: NULL 로드중 '/Game/맵/Arena01_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.20-07.43.42:277][ 19]LogLinker:Warning: '/Game/맵/Arena01_BuiltData' 파일을 찾을 수 없습니다.
+[2017.05.20-07.43.42:277][ 19]LogLinker:Warning: NULL 로드중 '/Game/맵/Arena01_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.20-07.43.42:283][ 19]LogLinker:Warning: '/Game/맵/Arena01_BuiltData' 파일을 찾을 수 없습니다.
+[2017.05.20-07.43.42:283][ 19]LoadErrors: 정보 로드에 실패했습니다. /Game/맵/Arena01_BuiltData.Arena01_BuiltData 레퍼런싱한 것: PersistentLevel
+[2017.05.20-07.43.42:283][ 19]LogLinker:Warning: NULL 로드중 '/Game/맵/Arena01_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.20-07.43.42:481][ 19]LogAIModule: Creating AISystem for world Arena01
+[2017.05.20-07.43.42:543][ 19]Cmd: MAP LOAD FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.20-07.43.42:543][ 19]LightingResults: New page: 라이팅 빌드
+[2017.05.20-07.43.42:545][ 19]LoadErrors: New page: 맵 로드중: Arena01.umap
+[2017.05.20-07.43.42:545][ 19]MapCheck: New page: 맵 체크
+[2017.05.20-07.43.42:545][ 19]LightingResults: New page: 라이팅 빌드
+[2017.05.20-07.43.42:624][ 19]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.20-07.43.42:653][ 19]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.20-07.43.42:691][ 19]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 38.173ms.
+[2017.05.20-07.43.42:691][ 19]LogFileHelpers: Loading map 'Arena01' took 0.151
+[2017.05.20-07.44.28:747][217]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-07.44.31:574][406]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-07.44.45:869][648]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-07.44.50:043][927]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-07.45.00:077][178]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-07.45.00:727][181]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.20-07.45.01:227][181]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.20-07.45.59:947][166]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-07.46.21:240][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/맵/Arena01" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.20-07.46.21:391][590]LogSavePackage: Save=114.84ms
+[2017.05.20-07.46.21:391][590]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Arena01D0F4098044320F1012046A82EA48DFBF.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena01.umap'
+[2017.05.20-07.46.21:395][590]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena01.umap
+[2017.05.20-07.47.16:713][528]LogLinker:Warning: '/Game/맵/Arena02_BuiltData' 파일을 찾을 수 없습니다.
+[2017.05.20-07.47.16:714][528]LogLinker:Warning: ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena02.umap 로드중 '/Game/맵/Arena02_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.20-07.47.16:714][528]LoadErrors:Error: 오류 /Game/맵/Arena02 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/맵/Arena02_BuiltData
+[2017.05.20-07.47.16:714][528]LogLinker:Warning: '/Game/맵/Arena02_BuiltData' 파일을 찾을 수 없습니다.
+[2017.05.20-07.47.16:714][528]LogLinker:Warning: ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena02.umap 로드중 '/Game/맵/Arena02_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.20-07.47.16:715][528]LogLinker:Warning: '/Game/맵/Arena02_BuiltData' 파일을 찾을 수 없습니다.
+[2017.05.20-07.47.16:715][528]LogLinker:Warning: NULL 로드중 '/Game/맵/Arena02_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.20-07.47.16:715][528]LogLinker:Warning: '/Game/맵/Arena02_BuiltData' 파일을 찾을 수 없습니다.
+[2017.05.20-07.47.16:715][528]LogLinker:Warning: NULL 로드중 '/Game/맵/Arena02_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.20-07.47.16:719][528]LogLinker:Warning: '/Game/맵/Arena02_BuiltData' 파일을 찾을 수 없습니다.
+[2017.05.20-07.47.16:720][528]LoadErrors: 정보 로드에 실패했습니다. /Game/맵/Arena02_BuiltData.Arena02_BuiltData 레퍼런싱한 것: PersistentLevel
+[2017.05.20-07.47.16:720][528]LogLinker:Warning: NULL 로드중 '/Game/맵/Arena02_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.20-07.47.16:746][528]LogAIModule: Creating AISystem for world Arena02
+[2017.05.20-07.47.19:059][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/게임플레이/Gameplay_GM" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/게임플레이/Gameplay_GM.uasset" SILENT=true
+[2017.05.20-07.47.19:078][528]LogSavePackage: Save=11.61ms
+[2017.05.20-07.47.19:078][528]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Gameplay_GM0FF46241493D0AAFDFF910B6C5AB5C92.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/게임플레이/Gameplay_GM.uasset'
+[2017.05.20-07.47.19:080][528]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/게임플레이/Gameplay_GM.uasset
+[2017.05.20-07.47.19:082][528]Cmd: MAP LOAD FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.20-07.47.19:082][528]LightingResults: New page: 라이팅 빌드
+[2017.05.20-07.47.19:084][528]LoadErrors: New page: 맵 로드중: Arena02.umap
+[2017.05.20-07.47.19:094][528]MapCheck: New page: 맵 체크
+[2017.05.20-07.47.19:095][528]LightingResults: New page: 라이팅 빌드
+[2017.05.20-07.47.19:345][528]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.20-07.47.19:370][528]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.20-07.47.19:411][528]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 40.583ms.
+[2017.05.20-07.47.19:411][528]LogFileHelpers: Loading map 'Arena02' took 0.331
+[2017.05.20-07.47.36:139][807]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-07.48.01:409][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/맵/Arena02" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.20-07.48.01:547][391]LogSavePackage: Save=115.55ms
+[2017.05.20-07.48.01:547][391]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Arena02270EB27247697E0CEFD53FA8B00723E3.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena02.umap'
+[2017.05.20-07.48.01:551][391]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena02.umap
+[2017.05.20-07.48.35:592][968]LogAIModule: Creating AISystem for world Arena01
+[2017.05.20-07.48.35:618][968]Cmd: MAP LOAD FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Arena01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.20-07.48.35:618][968]LightingResults: New page: 라이팅 빌드
+[2017.05.20-07.48.35:620][968]LoadErrors: New page: 맵 로드중: Arena01.umap
+[2017.05.20-07.48.35:620][968]MapCheck: New page: 맵 체크
+[2017.05.20-07.48.35:620][968]LightingResults: New page: 라이팅 빌드
+[2017.05.20-07.48.35:832][968]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.20-07.48.35:858][968]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.20-07.48.35:899][968]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 40.744ms.
+[2017.05.20-07.48.35:899][968]LogFileHelpers: Loading map 'Arena01' took 0.282
+[2017.05.20-07.49.25:045][798]LogAIModule: Creating AISystem for world Lobby
+[2017.05.20-07.49.25:064][798]Cmd: MAP LOAD FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.20-07.49.25:065][798]LightingResults: New page: 라이팅 빌드
+[2017.05.20-07.49.25:066][798]LoadErrors: New page: 맵 로드중: Lobby.umap
+[2017.05.20-07.49.25:078][798]MapCheck: New page: 맵 체크
+[2017.05.20-07.49.25:078][798]LightingResults: New page: 라이팅 빌드
+[2017.05.20-07.49.25:293][798]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.20-07.49.25:321][798]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.20-07.49.25:360][798]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 39.049ms.
+[2017.05.20-07.49.25:360][798]LogFileHelpers: Loading map 'Lobby' took 0.297
+[2017.05.20-07.49.48:425][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.20-07.50.08:623][598]Cmd: TRANSACTION UNDO
+[2017.05.20-07.50.08:623][598]LogEditorTransaction: Undo 액터 스케일
+[2017.05.20-07.59.25:533][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/맵/Lobby" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/Lobby_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.20-07.59.25:579][546]LogSavePackage: Save=38.64ms
+[2017.05.20-07.59.25:579][546]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Lobby_Auto7B423E14A48E02315FCAD8EB805DE4773.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/Lobby_Auto7.umap'
+[2017.05.20-07.59.25:580][546]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/Lobby_Auto7.umap
+[2017.05.20-07.59.25:583][546]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/Lobby' took 0.073
+[2017.05.20-07.59.25:583][546]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.073
+[2017.05.20-08.12.50:216][208]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.05.20-08.12.55:336][302]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.14:989][664]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.15:704][677]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.17:168][702]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.18:492][725]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.19:309][739]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.19:908][750]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.37:070][ 67]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.37:070][ 67]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.37:070][ 67]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.37:070][ 67]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.38:732][ 97]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.38:732][ 97]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.38:732][ 97]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.38:732][ 97]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.40:667][132]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.40:667][132]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.40:667][132]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.40:667][132]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.45:106][212]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.45:106][212]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.45:106][212]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.45:106][212]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.46:631][239]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.46:632][239]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.46:632][239]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.46:632][239]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.20-08.13.47:397][252]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.20-08.14.02:579][501]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-08.14.05:231][678]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-08.14.10:322][763]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-08.14.11:108][814]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.20-08.14.48:810][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/맵/Lobby" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/Lobby_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.20-08.14.48:844][520]LogSavePackage: Save=28.39ms
+[2017.05.20-08.14.48:844][520]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Lobby_Auto8996597AE4743432AC8265FBD2CFE58D3.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/Lobby_Auto8.umap'
+[2017.05.20-08.14.48:845][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/맵/Lobby_Auto8.umap
+[2017.05.20-08.14.48:847][520]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/Lobby' took 0.053
+[2017.05.20-08.14.48:847][520]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.053
+[2017.05.20-08.14.48:850][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/블루프린트/로비/Lobby_GM] ([1] browsable assets)...
+[2017.05.20-08.14.48:850][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/블루프린트/로비/Lobby_GM]
+[2017.05.20-08.14.48:850][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/로비/Lobby_GM" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/로비/Lobby_GM_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.05.20-08.14.48:865][520]LogSavePackage: Save=9.02ms
+[2017.05.20-08.14.48:865][520]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Lobby_GM_Auto89731857D4C58C7D17525588DFA32E5C9.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/로비/Lobby_GM_Auto8.uasset'
+[2017.05.20-08.14.48:866][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/블루프린트/로비/Lobby_GM_Auto8.uasset
+[2017.05.20-08.14.48:866][520]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.05.20-08.16.44:620][652]Cmd: TRANSACTION UNDO
+[2017.05.20-08.16.44:620][652]LogEditorTransaction: Undo 액터 이동
+[2017.05.20-08.17.39:962][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/맵/Lobby" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.20-08.17.40:023][738]LogSavePackage: Save=35.57ms
+[2017.05.20-08.17.40:023][738]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Lobby37923B1C42A517E83F2CAEB8477410D6.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Lobby.umap'
+[2017.05.20-08.17.40:028][738]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/Lobby.umap
+[2017.05.20-08.17.43:552][806]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.20-08.17.45:266][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/로비/Lobby_GM" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/로비/Lobby_GM.uasset" SILENT=true
+[2017.05.20-08.17.45:280][806]LogSavePackage: Save=10.24ms
+[2017.05.20-08.17.45:280][806]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Lobby_GM94C52C0C44D4293A7D83EDBB5E2A3157.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/로비/Lobby_GM.uasset'
+[2017.05.20-08.17.45:282][806]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/로비/Lobby_GM.uasset
+[2017.05.20-08.17.45:284][806]Cmd: MAP LOAD FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.20-08.17.45:284][806]LightingResults: New page: 라이팅 빌드
+[2017.05.20-08.17.45:285][806]LoadErrors: New page: 맵 로드중: MainMenu.umap
+[2017.05.20-08.17.45:287][806]MapCheck: New page: 맵 체크
+[2017.05.20-08.17.45:287][806]LightingResults: New page: 라이팅 빌드
+[2017.05.20-08.17.45:608][806]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.20-08.17.45:633][806]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.20-08.17.45:674][806]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 40.445ms.
+[2017.05.20-08.17.45:674][806]LogFileHelpers: Loading map 'MainMenu' took 0.392
+[2017.05.20-09.18.49:087][798]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-09.18.51:084][804]LogHttp:Warning: 0000009270D3EE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.20-09.18.51:084][804]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 0 (Connection 76 seems to be dead!)
+[2017.05.20-09.18.51:084][804]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 1 (Closing connection 76)
+[2017.05.20-09.18.51:084][804]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.20-09.18.51:084][804]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 3 (Closing connection 77)
+[2017.05.20-09.21.49:902][242]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-09.21.55:060][245]LogHttp:Warning: 0000009270D3C880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.20-09.21.55:060][245]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 0 (Connection 78 seems to be dead!)
+[2017.05.20-09.21.55:060][245]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 1 (Closing connection 78)
+[2017.05.20-09.21.55:060][245]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.20-09.21.55:060][245]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 3 (Closing connection 79)
+[2017.05.20-09.24.55:748][680]LogHttp:Warning: 0000009270D3C880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.20-09.24.55:748][680]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 0 (Connection 80 seems to be dead!)
+[2017.05.20-09.24.55:748][680]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 1 (Closing connection 80)
+[2017.05.20-09.24.55:748][680]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.20-09.24.55:748][680]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 3 (Closing connection 81)
+[2017.05.20-09.30.52:888][554]LogHttp:Warning: 0000009270D3C880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.20-09.30.52:888][554]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 0 (Connection 84 seems to be dead!)
+[2017.05.20-09.30.52:888][554]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 1 (Closing connection 84)
+[2017.05.20-09.30.52:888][554]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.20-09.30.52:888][554]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 3 (Closing connection 85)
+[2017.05.20-09.33.53:892][991]LogHttp:Warning: 0000009270D3C880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.20-09.33.53:892][991]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 0 (Connection 86 seems to be dead!)
+[2017.05.20-09.33.53:892][991]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 1 (Closing connection 86)
+[2017.05.20-09.33.53:892][991]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.20-09.33.53:892][991]LogHttp:Warning: 0000009270D3C880: libcurl info message cache 3 (Closing connection 87)
+[2017.05.20-09.40.00:764][865]LogHttp:Warning: 0000009270D3EE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.20-09.40.00:764][865]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 0 (Connection 90 seems to be dead!)
+[2017.05.20-09.40.00:764][865]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 1 (Closing connection 90)
+[2017.05.20-09.40.00:764][865]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.20-09.40.00:764][865]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 3 (Closing connection 91)
+[2017.05.20-09.48.58:960][175]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-09.55.00:952][ 50]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-10.01.02:947][925]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-10.04.04:164][363]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-10.07.09:730][804]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-10.07.09:730][804]LogHttp:Warning: 0000009270D3F580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.20-10.07.09:730][804]LogHttp:Warning: 0000009270D3F580: libcurl info message cache 0 (Connection 108 seems to be dead!)
+[2017.05.20-10.07.09:730][804]LogHttp:Warning: 0000009270D3F580: libcurl info message cache 1 (Closing connection 108)
+[2017.05.20-10.07.09:730][804]LogHttp:Warning: 0000009270D3F580: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.20-10.07.09:730][804]LogHttp:Warning: 0000009270D3F580: libcurl info message cache 3 (Closing connection 109)
+[2017.05.20-10.19.08:951][551]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-10.19.08:951][551]LogHttp:Warning: 0000009270D3EE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.20-10.19.08:951][551]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 0 (Connection 116 seems to be dead!)
+[2017.05.20-10.19.08:951][551]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 1 (Closing connection 116)
+[2017.05.20-10.19.08:951][551]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.20-10.19.08:951][551]LogHttp:Warning: 0000009270D3EE00: libcurl info message cache 3 (Closing connection 117)
+[2017.05.20-10.25.10:965][425]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-10.31.12:947][298]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-10.37.15:115][174]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-10.37.15:115][174]LogHttp:Warning: 0000009270D3FB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.20-10.37.15:115][174]LogHttp:Warning: 0000009270D3FB80: libcurl info message cache 0 (Connection 128 seems to be dead!)
+[2017.05.20-10.37.15:115][174]LogHttp:Warning: 0000009270D3FB80: libcurl info message cache 1 (Closing connection 128)
+[2017.05.20-10.37.15:115][174]LogHttp:Warning: 0000009270D3FB80: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.20-10.37.15:115][174]LogHttp:Warning: 0000009270D3FB80: libcurl info message cache 3 (Closing connection 129)
+[2017.05.20-10.40.15:910][623]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.05.20-10.50.41:849][ 88]LogEditorTransaction: Undo 위젯 추가
+[2017.05.20-10.52.33:952][ 83]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.33:952][ 83]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_8.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.33:952][ 83]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_7.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.33:952][ 83]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.33:952][ 83]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.33:952][ 83]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_6.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.33:952][ 83]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_5.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.33:952][ 83]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0.VerticalBoxSlot_1) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2017.05.20-10.52.33:952][ 83]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_1''
+[2017.05.20-10.52.37:131][146]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:131][146]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_8.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:131][146]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_7.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:131][146]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:131][146]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:131][146]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_6.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:131][146]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_5.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:131][146]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0.VerticalBoxSlot_1) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2017.05.20-10.52.37:131][146]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_1''
+[2017.05.20-10.52.37:783][155]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:783][155]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:783][155]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_8.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:783][155]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_7.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:783][155]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:783][155]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:783][155]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_6.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:783][155]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_5.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.37:783][155]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_1) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2017.05.20-10.52.37:783][155]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_1''
+[2017.05.20-10.52.38:334][162]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.38:334][162]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.38:334][162]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_8.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.38:334][162]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_7.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.38:334][162]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.38:334][162]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0
+[2017.05.20-10.52.38:334][162]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_6.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.38:334][162]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_5.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.38:334][162]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_11.WidgetTree.VerticalBox_0
+[2017.05.20-10.52.38:334][162]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_1) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2017.05.20-10.52.38:334][162]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_1''
+[2017.05.20-10.53.28:067][971]LogEditorTransaction: Undo 앵커 이동
+[2017.05.20-10.54.17:308][443]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.017
+[2017.05.20-10.54.17:310][443]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/인터페이스/메인메뉴/메인메뉴] ([1] browsable assets)...
+[2017.05.20-10.54.17:310][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/인터페이스/메인메뉴/메인메뉴]
+[2017.05.20-10.54.17:310][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/메인메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/메인메뉴_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.05.20-10.54.17:327][443]LogSavePackage: Save=10.22ms
+[2017.05.20-10.54.17:327][443]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/메인메뉴_Auto9E4CAB9F1465AF293B765F289959BACCE.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/메인메뉴_Auto9.uasset'
+[2017.05.20-10.54.17:328][443]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/메인메뉴_Auto9.uasset
+[2017.05.20-10.54.17:328][443]LogFileHelpers: Auto-saving content packages took 0.019
+[2017.05.20-10.57.09:351][367]LogEditorTransaction: Undo 위젯 이동
+[2017.05.20-10.57.12:403][417]LogEditorTransaction: Undo 위젯 이동
+[2017.05.20-10.58.32:569][733]LogEditorTransaction: Undo 프로퍼티 편집
+[2017.05.20-10.58.33:139][736]Cmd: TRANSACTION UNDO
+[2017.05.20-10.58.33:139][736]LogEditorTransaction: Undo Right 편집
+[2017.05.20-10.58.33:582][737]Cmd: TRANSACTION UNDO
+[2017.05.20-10.58.33:582][737]LogEditorTransaction: Undo Top 편집
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_8.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_7.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_6.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_5.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_11.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_12.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_16.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_17.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_15.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_18.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_19.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_20.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_21.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_22.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_23.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_24.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_25.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_26.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_27.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.20:785][425]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_1) from referencer (Button /Engine/UMG/Editor/Transient.방만들기).  Import failed...
+[2017.05.20-11.04.20:785][425]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_1''
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_8.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_7.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_6.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_5.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_11.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_12.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_16.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_17.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_15.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_18.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_19.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_20.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_21.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_22.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_23.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_24.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_25.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_26.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_27.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_28.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:120][429]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_1) from referencer (Button /Engine/UMG/Editor/Transient.방만들기).  Import failed...
+[2017.05.20-11.04.21:120][429]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_1''
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_9.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_8.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_7.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_6.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_5.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_11.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_12.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_16.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_17.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_15.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:919][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_18.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_19.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_20.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_21.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_22.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_23.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_24.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_25.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_26.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_27.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_28.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_10:메인메뉴_C_29.WidgetTree.VerticalBox_0
+[2017.05.20-11.04.21:920][440]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_10:메인메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_1) from referencer (Button /Engine/UMG/Editor/Transient.방만들기).  Import failed...
+[2017.05.20-11.04.21:920][440]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_1''
+[2017.05.20-11.05.07:467][161]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.016
+[2017.05.20-11.05.07:468][161]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/인터페이스/메인메뉴/메인메뉴] ([1] browsable assets)...
+[2017.05.20-11.05.07:468][161]OBJ SavePackage: Finished generating thumbnails for package [/Game/인터페이스/메인메뉴/메인메뉴]
+[2017.05.20-11.05.07:468][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/메인메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/메인메뉴_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.05.20-11.05.07:486][161]LogSavePackage: Save=11.24ms
+[2017.05.20-11.05.07:486][161]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/메인메뉴_Auto08A4B700944D4BA3BC1DEEA9B7F0BBEBF.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/메인메뉴_Auto0.uasset'
+[2017.05.20-11.05.07:487][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/메인메뉴_Auto0.uasset
+[2017.05.20-11.05.07:487][161]LogFileHelpers: Auto-saving content packages took 0.019
+[2017.05.20-11.07.14:744][189]BlueprintLog: New page: 메인메뉴 컴파일
+[2017.05.20-11.07.15:641][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/메인메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset" SILENT=true
+[2017.05.20-11.07.15:666][200]LogSavePackage: Save=20.25ms
+[2017.05.20-11.07.15:667][200]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/메인메뉴C368625E405C9381F85277A49C1E2DE1.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset'
+[2017.05.20-11.07.15:671][200]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset
+[2017.05.20-11.10.24:163][708]BlueprintLog: New page: 메인메뉴 컴파일
+[2017.05.20-11.10.26:115][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/메인메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset" SILENT=true
+[2017.05.20-11.10.26:154][737]LogSavePackage: Save=27.50ms
+[2017.05.20-11.10.26:154][737]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/메인메뉴7B736434471D52F521132CB0D803574A.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset'
+[2017.05.20-11.10.26:156][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset
+[2017.05.20-11.10.36:004][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/메인메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset" SILENT=true
+[2017.05.20-11.10.36:023][893]LogSavePackage: Save=15.45ms
+[2017.05.20-11.10.36:023][893]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/메인메뉴B311487A429C83C54C8EE685D13A71D1.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset'
+[2017.05.20-11.10.36:026][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset
+[2017.05.20-11.15.21:548][578]LogEditorTransaction: Undo 노드 이동
+[2017.05.20-11.15.31:288][773]LogEditorTransaction: Undo 노드 이동
+[2017.05.20-11.18.09:230][ 36]BlueprintLog: New page: 메인메뉴 컴파일
+[2017.05.20-11.18.09:888][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/메인메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset" SILENT=true
+[2017.05.20-11.18.09:916][ 41]LogSavePackage: Save=22.18ms
+[2017.05.20-11.18.09:916][ 41]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/메인메뉴7C54227F4579A74CDA37A9BFF786E834.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset'
+[2017.05.20-11.18.09:919][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset
+[2017.05.20-11.18.21:821][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/메인메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset" SILENT=true
+[2017.05.20-11.18.21:864][235]LogSavePackage: Save=38.46ms
+[2017.05.20-11.18.21:864][235]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/메인메뉴F89EED0B457B629B68B12AB1808E2104.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset'
+[2017.05.20-11.18.21:865][235]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset
+[2017.05.20-11.18.23:986][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/맵/MainMenu" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.20-11.18.24:090][274]LogSavePackage: Save=84.03ms
+[2017.05.20-11.18.24:091][274]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/MainMenu787781E547A8097BE55E85A2519BD563.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/MainMenu.umap'
+[2017.05.20-11.18.24:092][274]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/맵/MainMenu.umap
+[2017.05.20-11.18.27:127][343]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.20-11.18.27:159][343]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.18.27:159][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-11.18.27:180][343]PIE: New page: PIE 세션: MainMenu (2017. 5. 21. 오전 5:18:27)
+[2017.05.20-11.18.27:180][343]LogPlayLevel: Creating play world package: /Game/맵/UEDPIE_0_MainMenu
+[2017.05.20-11.18.27:185][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005556s)
+[2017.05.20-11.18.27:186][343]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.20-11.18.27:186][343]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2017.05.20-11.18.27:186][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/맵/MainMenu.MainMenu to /Game/맵/UEDPIE_0_MainMenu.MainMenu (0.006567s)
+[2017.05.20-11.18.27:303][343]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.20-11.18.27:305][343]LogWorld: Bringing World /Game/맵/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.05.20-20.18.27
+[2017.05.20-11.18.27:310][343]LogWorld: Bringing up level for play took: 0.005550
+[2017.05.20-11.18.27:421][343]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.05.20-11.18.27:461][343]PIE: 정보 /Game/맵/UEDPIE_0_MainMenu 에 대한 에디터에서 플레이 시작 시간: 0.22
+[2017.05.20-11.18.27:461][343]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.18.34:570][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.18.34:635][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.18.45:715][805]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.20-11.18.45:730][805]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.18.45:730][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-11.18.45:730][805]PIE: New page: PIE 세션: MainMenu (2017. 5. 21. 오전 5:18:45)
+[2017.05.20-11.18.45:730][805]LogPlayLevel: Creating play world package: /Game/맵/UEDPIE_0_MainMenu
+[2017.05.20-11.18.45:731][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001045s)
+[2017.05.20-11.18.45:732][805]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.20-11.18.45:732][805]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2017.05.20-11.18.45:732][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/맵/MainMenu.MainMenu to /Game/맵/UEDPIE_0_MainMenu.MainMenu (0.001974s)
+[2017.05.20-11.18.45:788][805]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.20-11.18.45:790][805]LogWorld: Bringing World /Game/맵/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.05.20-20.18.45
+[2017.05.20-11.18.45:790][805]LogWorld: Bringing up level for play took: 0.000863
+[2017.05.20-11.18.45:793][805]PIE: 정보 /Game/맵/UEDPIE_0_MainMenu 에 대한 에디터에서 플레이 시작 시간: 0.552
+[2017.05.20-11.18.45:793][805]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.18.49:852][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.18.49:890][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.18.52:047][964]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.20-11.18.52:061][964]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.18.52:061][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-11.18.52:061][964]PIE: New page: PIE 세션: MainMenu (2017. 5. 21. 오전 5:18:52)
+[2017.05.20-11.18.52:061][964]LogPlayLevel: Creating play world package: /Game/맵/UEDPIE_0_MainMenu
+[2017.05.20-11.18.52:062][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000818s)
+[2017.05.20-11.18.52:062][964]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.20-11.18.52:062][964]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2017.05.20-11.18.52:063][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/맵/MainMenu.MainMenu to /Game/맵/UEDPIE_0_MainMenu.MainMenu (0.001550s)
+[2017.05.20-11.18.52:117][964]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.20-11.18.52:120][964]LogWorld: Bringing World /Game/맵/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.05.20-20.18.52
+[2017.05.20-11.18.52:120][964]LogWorld: Bringing up level for play took: 0.000849
+[2017.05.20-11.18.52:122][964]PIE: 정보 /Game/맵/UEDPIE_0_MainMenu 에 대한 에디터에서 플레이 시작 시간: 0.881
+[2017.05.20-11.18.52:122][964]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.18.55:495][ 51]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.18.55:559][ 51]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.19.01:070][192]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.20-11.19.01:084][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.19.01:084][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-11.19.01:084][192]PIE: New page: PIE 세션: MainMenu (2017. 5. 21. 오전 5:19:01)
+[2017.05.20-11.19.01:084][192]LogPlayLevel: Creating play world package: /Game/맵/UEDPIE_0_MainMenu
+[2017.05.20-11.19.01:085][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000793s)
+[2017.05.20-11.19.01:086][192]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.20-11.19.01:086][192]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2017.05.20-11.19.01:086][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/맵/MainMenu.MainMenu to /Game/맵/UEDPIE_0_MainMenu.MainMenu (0.001667s)
+[2017.05.20-11.19.01:137][192]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.20-11.19.01:139][192]LogWorld: Bringing World /Game/맵/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.05.20-20.19.01
+[2017.05.20-11.19.01:139][192]LogWorld: Bringing up level for play took: 0.000743
+[2017.05.20-11.19.01:142][192]PIE: 정보 /Game/맵/UEDPIE_0_MainMenu 에 대한 에디터에서 플레이 시작 시간: -0.099
+[2017.05.20-11.19.01:142][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.19.03:709][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.19.03:777][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.19.56:303][584]LogMetaData: Removing '/Game/인터페이스/메인메뉴/설정메뉴.설정메뉴_C' ref from Metadata '/Game/인터페이스/메인메뉴/옵션메뉴.PackageMetaData'
+[2017.05.20-11.19.56:303][584]LogMetaData: Removing '/Game/인터페이스/메인메뉴/설정메뉴.SKEL_설정메뉴_C' ref from Metadata '/Game/인터페이스/메인메뉴/옵션메뉴.PackageMetaData'
+[2017.05.20-11.19.56:322][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/설정메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/설정메뉴.uasset" SILENT=true
+[2017.05.20-11.19.56:333][584]LogSavePackage: Save=8.37ms
+[2017.05.20-11.19.56:333][584]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/설정메뉴AA3DF11B4990C976C472C08F8ADAC3DC.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/설정메뉴.uasset'
+[2017.05.20-11.19.56:335][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/설정메뉴.uasset
+[2017.05.20-11.19.56:452][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/블루프린트/레벨/GameInfoInstance" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset" SILENT=true
+[2017.05.20-11.19.56:493][584]LogSavePackage: Save=34.21ms
+[2017.05.20-11.19.56:493][584]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/GameInfoInstance437055704DBD5363A937029AAF176891.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset'
+[2017.05.20-11.19.56:495][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/블루프린트/레벨/GameInfoInstance.uasset
+[2017.05.20-11.20.49:908][926]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.20.49:908][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-11.20.49:908][926]PIE: New page: PIE 세션: MainMenu (2017. 5. 21. 오전 5:20:49)
+[2017.05.20-11.20.49:908][926]LogPlayLevel: Creating play world package: /Game/맵/UEDPIE_0_MainMenu
+[2017.05.20-11.20.49:909][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000995s)
+[2017.05.20-11.20.49:910][926]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.20-11.20.49:910][926]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2017.05.20-11.20.49:910][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/맵/MainMenu.MainMenu to /Game/맵/UEDPIE_0_MainMenu.MainMenu (0.002196s)
+[2017.05.20-11.20.49:977][926]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.20-11.20.49:980][926]LogWorld: Bringing World /Game/맵/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.05.20-20.20.49
+[2017.05.20-11.20.49:980][926]LogWorld: Bringing up level for play took: 0.001134
+[2017.05.20-11.20.49:987][926]PIE: 정보 /Game/맵/UEDPIE_0_MainMenu 에 대한 에디터에서 플레이 시작 시간: 0.746
+[2017.05.20-11.20.49:987][926]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.20.50:016][926]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:136161).
+[2017.05.20-11.21.00:458][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.21.00:536][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.21.51:022][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_14:메인메뉴_C_6.WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴_C:WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/인터페이스/메인메뉴/서버메뉴.서버메뉴:WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen_C:WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_14:메인메뉴_C_7.WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/인터페이스/메인메뉴/서버메뉴.서버메뉴_C:WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/인터페이스/메인메뉴/설정메뉴.설정메뉴:WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_12:호스트메뉴_C_2.WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/인터페이스/메인메뉴/설정메뉴.설정메뉴_C:WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_12:호스트메뉴_C_1.WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/인터페이스/레벨/LoadingScreen.LoadingScreen:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴_C:WidgetTree.CanvasPanel_0
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_14:메인메뉴_C_7.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_14:메인메뉴_C_6.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.05.20-11.21.51:023][440]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.05.20-11.21.51:023][440]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Border /Engine/UMG/Editor/Transient.Border_25).  Import failed...
+[2017.05.20-11.21.51:023][440]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.05.20-11.24.10:005][375]BlueprintLog: New page: 호스트메뉴 컴파일
+[2017.05.20-11.24.11:167][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-11.24.11:192][404]LogSavePackage: Save=10.27ms
+[2017.05.20-11.24.11:192][404]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴F824EB9343858F287F82E4A2176AAF55.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-11.24.11:193][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-11.28.52:417][529]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.020
+[2017.05.20-11.28.52:419][529]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/인터페이스/메인메뉴/호스트메뉴] ([1] browsable assets)...
+[2017.05.20-11.28.52:419][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/인터페이스/메인메뉴/호스트메뉴]
+[2017.05.20-11.28.52:419][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.20-11.28.52:433][529]LogSavePackage: Save=10.87ms
+[2017.05.20-11.28.52:433][529]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴_Auto1587A8B2A4D3D79D3873B82989EAEA265.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto1.uasset'
+[2017.05.20-11.28.52:434][529]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto1.uasset
+[2017.05.20-11.28.52:434][529]LogFileHelpers: Auto-saving content packages took 0.015
+[2017.05.20-11.29.54:938][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_2.WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:938][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:938][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:938][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_5.WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:938][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:938][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:938][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_3.WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:939][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:939][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_4.WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:939][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_8.WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:939][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_6.WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:939][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_1.WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:939][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_14:메인메뉴_C_9.WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:939][804]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.29.54:939][804]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0.VerticalBoxSlot_2) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_6).  Import failed...
+[2017.05.20-11.29.54:939][804]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_2''
+[2017.05.20-11.30.20:246][513]BlueprintLog: New page: 호스트메뉴 컴파일
+[2017.05.20-11.30.22:126][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-11.30.22:158][556]LogSavePackage: Save=26.06ms
+[2017.05.20-11.30.22:158][556]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴6300C7864344F1006CF91AA9CD51AC3B.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-11.30.22:161][556]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_2.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_14:메인메뉴_C_10.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_5.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_3.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_호스트메뉴_C_83:WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_4.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_15.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_8.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_12.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_11.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_13.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_16.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_18.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_6.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_1.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_14.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_17.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_9.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_0.WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_13.WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_9.WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_16.WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_14.WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_15.WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_12.WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_0.WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:511][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_11.WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:512][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_17.WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:512][719]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_18.WidgetTree.VerticalBox_0.VerticalBoxSlot_4
+[2017.05.20-11.35.26:512][719]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0.VerticalBoxSlot_4) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_7).  Import failed...
+[2017.05.20-11.35.26:512][719]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_4''
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_2.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_14:메인메뉴_C_10.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_5.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_3.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_호스트메뉴_C_83:WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_4.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_15.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_8.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_12.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_11.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_13.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_16.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_19.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_18.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_6.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_1.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_14.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_17.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_9.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_0.WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_8 or VerticalBoxSlot /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0.VerticalBoxSlot_8
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_8 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_11.WidgetTree.VerticalBox_0.VerticalBoxSlot_8
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_8 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_12.WidgetTree.VerticalBox_0.VerticalBoxSlot_8
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_8 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_13.WidgetTree.VerticalBox_0.VerticalBoxSlot_8
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_8 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_14.WidgetTree.VerticalBox_0.VerticalBoxSlot_8
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_8 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_15.WidgetTree.VerticalBox_0.VerticalBoxSlot_8
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_8 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_16.WidgetTree.VerticalBox_0.VerticalBoxSlot_8
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_8 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_17.WidgetTree.VerticalBox_0.VerticalBoxSlot_8
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_8 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_18.WidgetTree.VerticalBox_0.VerticalBoxSlot_8
+[2017.05.20-11.36.10:110][616]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_8 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_19.WidgetTree.VerticalBox_0.VerticalBoxSlot_8
+[2017.05.20-11.36.10:110][616]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0.VerticalBoxSlot_8) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_0).  Import failed...
+[2017.05.20-11.36.10:110][616]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_8''
+[2017.05.20-11.38.52:544][251]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.020
+[2017.05.20-11.38.52:545][251]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/인터페이스/메인메뉴/호스트메뉴] ([1] browsable assets)...
+[2017.05.20-11.38.52:545][251]OBJ SavePackage: Finished generating thumbnails for package [/Game/인터페이스/메인메뉴/호스트메뉴]
+[2017.05.20-11.38.52:545][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.20-11.38.52:567][251]LogSavePackage: Save=16.21ms
+[2017.05.20-11.38.52:567][251]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴_Auto2054BD9B2433003586625189A4FC463AA.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto2.uasset'
+[2017.05.20-11.38.52:569][251]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto2.uasset
+[2017.05.20-11.38.52:569][251]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.05.20-11.39.30:510][698]BlueprintLog: New page: 메인메뉴 컴파일
+[2017.05.20-11.39.31:573][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/메인메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset" SILENT=true
+[2017.05.20-11.39.31:643][726]LogSavePackage: Save=62.34ms
+[2017.05.20-11.39.31:643][726]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/메인메뉴C6014BF24E80B2B8F3098DA3FAB2B198.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset'
+[2017.05.20-11.39.31:646][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_2.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons:WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_14:메인메뉴_C_10.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_5.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/VREditor/Tutorial/UMG/Buttons/MainMenuButtons.MainMenuButtons_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_3.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_14:메인메뉴_C_13.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_호스트메뉴_C_83:WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_4.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_15.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_8.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_12.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_11.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_13.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_16.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_19.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_20.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_21.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_22.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_23.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_24.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_25.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_14:메인메뉴_C_11.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_14:메인메뉴_C_12.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_18.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_6.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_1.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_10.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_14.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_17.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_메인메뉴_C_104:WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_9.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Game/인터페이스/메인메뉴/메인메뉴.메인메뉴_C:WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_12:호스트메뉴_C_0.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_12:호스트메뉴_C_7.WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_14:메인메뉴_C_0.WidgetTree.VerticalBox_0
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0.VerticalBoxSlot_11 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_20.WidgetTree.VerticalBox_0.VerticalBoxSlot_11
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0.VerticalBoxSlot_11 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_21.WidgetTree.VerticalBox_0.VerticalBoxSlot_11
+[2017.05.20-11.40.21:255][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0.VerticalBoxSlot_11 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_22.WidgetTree.VerticalBox_0.VerticalBoxSlot_11
+[2017.05.20-11.40.21:256][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0.VerticalBoxSlot_11 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_23.WidgetTree.VerticalBox_0.VerticalBoxSlot_11
+[2017.05.20-11.40.21:256][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0.VerticalBoxSlot_11 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_24.WidgetTree.VerticalBox_0.VerticalBoxSlot_11
+[2017.05.20-11.40.21:256][ 85]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0.VerticalBoxSlot_11 or VerticalBoxSlot /Engine/Transient.World_12:호스트메뉴_C_25.WidgetTree.VerticalBox_0.VerticalBoxSlot_11
+[2017.05.20-11.40.21:256][ 85]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/인터페이스/메인메뉴/호스트메뉴.호스트메뉴:WidgetTree.VerticalBox_0.VerticalBoxSlot_11) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_1).  Import failed...
+[2017.05.20-11.40.21:256][ 85]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_11''
+[2017.05.20-11.46.54:962][881]BlueprintLog: New page: 호스트메뉴 컴파일
+[2017.05.20-11.46.58:154][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-11.46.58:184][ 41]LogSavePackage: Save=23.10ms
+[2017.05.20-11.46.58:184][ 41]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴37C5B9614D36A45564FF999AD7B75970.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-11.46.58:188][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-11.52.32:097][709]LogEditorTransaction: Undo 위젯 이동
+[2017.05.20-11.52.32:728][723]LogEditorTransaction: Undo 위젯 이름변경
+[2017.05.20-11.53.05:896][688]BlueprintLog: New page: 호스트메뉴 컴파일
+[2017.05.20-11.53.07:166][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-11.53.07:195][715]LogSavePackage: Save=22.39ms
+[2017.05.20-11.53.07:195][715]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴A4DABB054D2D01DDA612A6A73CCF8648.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-11.53.07:197][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-11.53.09:134][802]LogTemp: Repeting last play command: 새 에디터 창 (PIE)
+[2017.05.20-11.53.09:161][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.53.09:161][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-11.53.09:161][802]PIE: New page: PIE 세션: MainMenu (2017. 5. 21. 오전 5:53:09)
+[2017.05.20-11.53.09:161][802]LogPlayLevel: Creating play world package: /Game/맵/UEDPIE_0_MainMenu
+[2017.05.20-11.53.09:162][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000808s)
+[2017.05.20-11.53.09:163][802]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.20-11.53.09:163][802]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2017.05.20-11.53.09:163][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/맵/MainMenu.MainMenu to /Game/맵/UEDPIE_0_MainMenu.MainMenu (0.001833s)
+[2017.05.20-11.53.09:215][802]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.20-11.53.09:218][802]LogWorld: Bringing World /Game/맵/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.05.20-20.53.09
+[2017.05.20-11.53.09:218][802]LogWorld: Bringing up level for play took: 0.000904
+[2017.05.20-11.53.09:225][802]PIE: 정보 /Game/맵/UEDPIE_0_MainMenu 에 대한 에디터에서 플레이 시작 시간: -0.017
+[2017.05.20-11.53.09:225][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.53.54:007][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.53.54:038][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.54.02:341][801]LogTemp: Repeting last play command: 새 에디터 창 (PIE)
+[2017.05.20-11.54.02:361][801]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.54.02:361][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-11.54.02:361][801]PIE: New page: PIE 세션: MainMenu (2017. 5. 21. 오전 5:54:02)
+[2017.05.20-11.54.02:361][801]LogPlayLevel: Creating play world package: /Game/맵/UEDPIE_0_MainMenu
+[2017.05.20-11.54.02:362][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000952s)
+[2017.05.20-11.54.02:363][801]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.20-11.54.02:363][801]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2017.05.20-11.54.02:363][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/맵/MainMenu.MainMenu to /Game/맵/UEDPIE_0_MainMenu.MainMenu (0.001791s)
+[2017.05.20-11.54.02:419][801]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.20-11.54.02:421][801]LogWorld: Bringing World /Game/맵/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.05.20-20.54.02
+[2017.05.20-11.54.02:422][801]LogWorld: Bringing up level for play took: 0.001093
+[2017.05.20-11.54.02:428][801]PIE: 정보 /Game/맵/UEDPIE_0_MainMenu 에 대한 에디터에서 플레이 시작 시간: -0.813
+[2017.05.20-11.54.02:428][801]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.54.03:902][823]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.54.03:983][823]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.54.04:984][839]LogTemp: Repeting last play command: 새 에디터 창 (PIE)
+[2017.05.20-11.54.05:002][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.54.05:003][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-11.54.05:003][839]PIE: New page: PIE 세션: MainMenu (2017. 5. 21. 오전 5:54:05)
+[2017.05.20-11.54.05:003][839]LogPlayLevel: Creating play world package: /Game/맵/UEDPIE_0_MainMenu
+[2017.05.20-11.54.05:004][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000815s)
+[2017.05.20-11.54.05:004][839]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.20-11.54.05:004][839]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.05.20-11.54.05:004][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/맵/MainMenu.MainMenu to /Game/맵/UEDPIE_0_MainMenu.MainMenu (0.001538s)
+[2017.05.20-11.54.05:057][839]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.20-11.54.05:059][839]LogWorld: Bringing World /Game/맵/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.05.20-20.54.05
+[2017.05.20-11.54.05:059][839]LogWorld: Bringing up level for play took: 0.000733
+[2017.05.20-11.54.05:065][839]PIE: 정보 /Game/맵/UEDPIE_0_MainMenu 에 대한 에디터에서 플레이 시작 시간: -0.175
+[2017.05.20-11.54.05:066][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.54.08:307][895]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.54.08:338][895]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.55.22:740][939]BlueprintLog: New page: 호스트메뉴 컴파일
+[2017.05.20-11.55.38:079][674]BlueprintLog: New page: 호스트메뉴 컴파일
+[2017.05.20-11.55.39:653][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-11.55.39:680][712]LogSavePackage: Save=21.75ms
+[2017.05.20-11.55.39:680][712]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴281DD23847A9B4D8CDA43BA8F6C2AD2B.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-11.55.39:682][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-11.55.40:419][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-11.55.40:444][757]LogSavePackage: Save=21.92ms
+[2017.05.20-11.55.40:444][757]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴F3A997F342495A8FDECE6DB0557AD4A0.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-11.55.40:445][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-11.55.44:122][948]LogTemp: Repeting last play command: 새 에디터 창 (PIE)
+[2017.05.20-11.55.44:141][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.55.44:141][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-11.55.44:141][948]PIE: New page: PIE 세션: MainMenu (2017. 5. 21. 오전 5:55:44)
+[2017.05.20-11.55.44:141][948]LogPlayLevel: Creating play world package: /Game/맵/UEDPIE_0_MainMenu
+[2017.05.20-11.55.44:142][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000886s)
+[2017.05.20-11.55.44:143][948]LogAIModule: Creating AISystem for world MainMenu
+[2017.05.20-11.55.44:143][948]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2017.05.20-11.55.44:143][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/맵/MainMenu.MainMenu to /Game/맵/UEDPIE_0_MainMenu.MainMenu (0.001788s)
+[2017.05.20-11.55.44:199][948]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.20-11.55.44:201][948]LogWorld: Bringing World /Game/맵/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.05.20-20.55.44
+[2017.05.20-11.55.44:201][948]LogWorld: Bringing up level for play took: 0.000862
+[2017.05.20-11.55.44:208][948]PIE: 정보 /Game/맵/UEDPIE_0_MainMenu 에 대한 에디터에서 플레이 시작 시간: 0.967
+[2017.05.20-11.55.44:208][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.57.09:869][486]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.57.09:903][486]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/맵/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/맵/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/맵/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.05.20-11.57.34:056][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-11.57.34:082][121]LogSavePackage: Save=23.29ms
+[2017.05.20-11.57.34:082][121]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴B9AEACE34BBFBA3997EA969A2E99AE13.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-11.57.34:083][121]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-12.03.45:264][249]BlueprintLog: New page: 호스트메뉴 컴파일
+[2017.05.20-12.03.45:801][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-12.03.45:832][264]LogSavePackage: Save=24.57ms
+[2017.05.20-12.03.45:832][264]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴BAB9BD9B4ECF28D38CC25BA8D94C3E5D.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-12.03.45:835][264]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-12.03.47:407][336]BlueprintLog: New page: 메인메뉴 컴파일
+[2017.05.20-12.03.47:990][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/메인메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset" SILENT=true
+[2017.05.20-12.03.48:018][355]LogSavePackage: Save=21.68ms
+[2017.05.20-12.03.48:018][355]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/메인메뉴FBE503BC4E0F28828BDBF3A37938DEB7.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset'
+[2017.05.20-12.03.48:021][355]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/메인메뉴.uasset
+[2017.05.20-12.04.52:568][844]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2017.05.20-12.05.15:703][ 94]LogEditorTransaction: Undo 노드 이름변경
+[2017.05.20-12.05.17:609][190]LogEditorTransaction: Undo 노드 추가
+[2017.05.20-12.05.26:036][670]LogEditorTransaction: Undo 노드 이동
+[2017.05.20-12.05.26:749][704]LogEditorTransaction: Undo 노드 이동
+[2017.05.20-12.05.46:120][822]BlueprintLog: New page: 호스트메뉴 컴파일
+[2017.05.20-12.05.46:671][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-12.05.46:701][840]LogSavePackage: Save=26.61ms
+[2017.05.20-12.05.46:701][840]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴E1AB435146F2FFADDBFCC6838D9176B7.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-12.05.46:703][840]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-12.07.40:799][328]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.020
+[2017.05.20-12.07.40:800][328]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/인터페이스/메인메뉴/호스트메뉴] ([1] browsable assets)...
+[2017.05.20-12.07.40:800][328]OBJ SavePackage: Finished generating thumbnails for package [/Game/인터페이스/메인메뉴/호스트메뉴]
+[2017.05.20-12.07.40:800][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.20-12.07.40:830][328]LogSavePackage: Save=26.33ms
+[2017.05.20-12.07.40:830][328]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴_Auto30361E2524FF6DAB94D4FF98382F5EC81.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto3.uasset'
+[2017.05.20-12.07.40:830][328]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto3.uasset
+[2017.05.20-12.07.40:830][328]LogFileHelpers: Auto-saving content packages took 0.031
+[2017.05.20-12.17.41:486][694]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/맵/MainMenu' took 0.033
+[2017.05.20-12.17.41:489][694]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/인터페이스/메인메뉴/호스트메뉴] ([1] browsable assets)...
+[2017.05.20-12.17.41:489][694]OBJ SavePackage: Finished generating thumbnails for package [/Game/인터페이스/메인메뉴/호스트메뉴]
+[2017.05.20-12.17.41:489][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.05.20-12.17.41:531][694]LogSavePackage: Save=32.61ms
+[2017.05.20-12.17.41:531][694]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴_Auto45DE9684544755FA39CD355A839B1208B.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto4.uasset'
+[2017.05.20-12.17.41:533][694]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/Autosaves/Game/인터페이스/메인메뉴/호스트메뉴_Auto4.uasset
+[2017.05.20-12.17.41:533][694]LogFileHelpers: Auto-saving content packages took 0.045
+[2017.05.20-12.25.58:011][200]BlueprintLog: New page: 호스트메뉴 컴파일
+[2017.05.20-12.25.59:556][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-12.25.59:598][255]LogSavePackage: Save=33.48ms
+[2017.05.20-12.25.59:598][255]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴E1A5912C413B850278A4BA95979C14B6.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-12.25.59:602][255]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-12.31.47:645][814]BlueprintLog: New page: 호스트메뉴 컴파일
+[2017.05.20-12.31.51:836][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-12.31.51:880][890]LogSavePackage: Save=33.06ms
+[2017.05.20-12.31.51:880][890]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴A28DE3D6431989E5B79060B77A1C603E.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-12.31.51:883][890]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-12.32.00:896][447]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
+[2017.05.20-12.32.37:236][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-12.32.37:271][362]LogSavePackage: Save=32.37ms
+[2017.05.20-12.32.37:271][362]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴89C976534FF91B5BDFB6929B90425067.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-12.32.37:272][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-12.32.49:417][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/인터페이스/메인메뉴/호스트메뉴" FILE="../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset" SILENT=true
+[2017.05.20-12.32.49:455][ 57]LogSavePackage: Save=34.43ms
+[2017.05.20-12.32.49:455][ 57]LogSavePackage: Moving '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Saved/호스트메뉴36E5F2914B7A6C53C9958BA6A76EF92D.tmp' to '../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset'
+[2017.05.20-12.32.49:456][ 57]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/400T6B/Desktop/Multiplayer_Test/Content/인터페이스/메인메뉴/호스트메뉴.uasset
+[2017.05.20-12.34.06:315][299]BlueprintLog: New page: 호스트메뉴 컴파일
